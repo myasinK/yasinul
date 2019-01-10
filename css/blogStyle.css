@@ -1,0 +1,60 @@
+.article-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #dddddd;
+  box-sizing: border-box;
+  width: 100vw;
+  height: auto;
+  padding: 5% 10%;
+}
+
+.article-title {
+    text-align: center;
+    font-style: italic;
+}
+
+.sub-heading, .posted-by{
+    text-align: center;
+}
+
+.shortcuts-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border: 1px solid black;
+}
+
+.display-header {
+    display: flex;
+    flex-direction: row;
+    background-color: #001f3f;
+    color: #DDDDDD;
+    width: 100%;
+    margin-top: -1px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.row:hover {
+    background-color: #FFDC00;
+    cursor: default;
+}
+
+.col-1 {
+    width: 70%;
+    text-align: left;
+    padding-left: 5%
+}
+
+.col-2 {
+    width: 30%;
+    text-align: left;
+    padding-left: 5%;
+}
+

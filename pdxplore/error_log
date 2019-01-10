@@ -1,0 +1,15 @@
+[27-Dec-2018 02:49:59 America/Chicago] PHP Warning:  file_get_contents(/home1/myk/public_html/pdxplore/json/events-json.txt): failed to open stream: No such file or directory in /home1/myk/public_html/pdxplore/index.php on line 14
+[27-Dec-2018 02:49:59 America/Chicago] PHP Warning:  usort() expects parameter 1 to be array, null given in /home1/myk/public_html/pdxplore/index.php on line 24
+[27-Dec-2018 02:49:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/myk/public_html/pdxplore/index.php on line 26
+[27-Dec-2018 02:51:43 America/Chicago] PHP Warning:  file_get_contents(/home1/myk/public_html/pdxplore../json/events-json.txt): failed to open stream: No such file or directory in /home1/myk/public_html/pdxplore/index.php on line 14
+[27-Dec-2018 02:51:43 America/Chicago] PHP Warning:  usort() expects parameter 1 to be array, null given in /home1/myk/public_html/pdxplore/index.php on line 24
+[27-Dec-2018 02:51:43 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/myk/public_html/pdxplore/index.php on line 26
+[27-Dec-2018 02:52:53 America/Chicago] PHP Warning:  file_get_contents(/home1/myk/public_html/pdxplore../json/events-json.txt): failed to open stream: No such file or directory in /home1/myk/public_html/pdxplore/index.php on line 14
+[27-Dec-2018 02:52:53 America/Chicago] PHP Warning:  usort() expects parameter 1 to be array, null given in /home1/myk/public_html/pdxplore/index.php on line 24
+[27-Dec-2018 02:52:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/myk/public_html/pdxplore/index.php on line 26
+[27-Dec-2018 02:53:15 America/Chicago] PHP Warning:  file_get_contents(/home1/myk/public_html/pdxplore../json/events-json.txt): failed to open stream: No such file or directory in /home1/myk/public_html/pdxplore/index.php on line 14
+[27-Dec-2018 02:53:15 America/Chicago] PHP Warning:  usort() expects parameter 1 to be array, null given in /home1/myk/public_html/pdxplore/index.php on line 24
+[27-Dec-2018 02:53:15 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/myk/public_html/pdxplore/index.php on line 26
+[27-Dec-2018 02:53:28 America/Chicago] PHP Warning:  file_get_contents() expects at least 1 parameter, 0 given in /home1/myk/public_html/pdxplore/index.php on line 15
+[27-Dec-2018 02:53:28 America/Chicago] PHP Warning:  usort() expects parameter 1 to be array, null given in /home1/myk/public_html/pdxplore/index.php on line 25
+[27-Dec-2018 02:53:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/myk/public_html/pdxplore/index.php on line 27

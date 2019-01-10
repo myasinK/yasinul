@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- asfd -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+    <link rel="stylesheet" href="./../../css/main.css">
+    <link rel="stylesheet" href="./../../css/blogStyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <title>Lift-off</title>
+</head>
+
+<body>
+    <!-- Top banner -->
+    <div class="head-banner">
+        <div class="name">
+            <span id="fullName">Yasin Karim</span>
+        </div>
+        <div class="title">
+            <i id="less-than" class="fas fa-less-than"></i>
+            <span class="phys">Physicist</span> &nbsp;|&nbsp; <span class="dev">Developer</span>
+            <i class="fas fa-greater-than"></i>
+            <span id="blink">|</span>
+        </div>
+        <div class="navLinks">
+            <a href="https://yasinul.com/blog/landing">
+                [Blogs]
+            </a>
+            &nbsp;
+            <a href="https://yasinul.com">
+                [Home]
+            </a>
+        </div>
+        </a>
+    </div>
+    <!-- End top banner -->
+
+    <!-- Main body -->
+    <div class="article-container">
+        <h1 class="article-title">
+            pdXplore
+        </h1>
+        <h2 class="sub-heading">
+            Aggregating Live Event Info for PDX
+        </h2>
+        <h4 class="posted-by">
+            Posted by YK <br>
+            On January 1, 2019
+        </h4>
+        <!-- <a href="http://visualstudioshortcuts.com/2017/" style="color: #0074D9"></a> -->
+        <p>
+            I've just put up a simple 
+            <a href="https://yasinul.com/pdxplore" style="color: #0074D9">
+                python/web-scraping project
+            </a> 
+            borne out of a 
+            desire to create a centralized repository of live events happening
+            in Portland. It's merely a skeleton of what really want to do with it, 
+            but I'll leave it as is for now. I really want to finish a couple other 
+            projects I've been pretty excited about. 
+        </p>
+        <p>
+            Needless to say, the list of venues is far from exhaustive. But I did manage
+            to write a script that goes through schedules for 
+            <a href="https://www.portland5.com/" style="color: #0074D9">Portland5</a>, 
+            <a href="https://www.aladdin-theater.com/" style="color: #0074D9">Aladdin theater</a>,
+            <a href="https://www.revolutionhall.com/" style="color: #0074D9">Revolution Hall</a>, and 
+            <a href="https://www.wonderballroom.com/" style="color: #0074D9">Wonder Ballroom</a>.
+            Portland5 is the collective of Arlene Schnitzer Concert Hall, Newmark Theatre, Brunish Theatre,
+            Winningstad Theatre and the Keller Auditorium. 
+        </p>
+        <p>
+            I implemented the scraper with 
+            <a href="https://www.crummy.com/software/BeautifulSoup/" style="color: #0074D9">BeautifulSoup4</a> and 
+            <a href="https://selenium-python.readthedocs.io/" style="color: #0074D9">Selenium</a>.
+            In hindsight, I maybe should've used Selenium for the entire project... In any case, 
+            the code is 
+            <a href="https://github.com/myasinK/PDX-events-scraper" style="color: #0074D9">here</a>.
+            I did use Visual Studio, hence the proliferation of .sln files. My script is going to 
+            go through all the event pages and collect the event names, locations, and dates. It's a 
+            tiny amount of data so I'm saving it all as a JSON object.  
+        </p>
+        <p>
+
+        </p>
+
+    </div>
+    <!-- End Main body -->
+</body>
+
+</html>
